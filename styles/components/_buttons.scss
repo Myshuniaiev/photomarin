@@ -1,0 +1,40 @@
+/* CSS */
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  &-default {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    background: #7d887d;
+    border: none;
+    transition: 0.3s;
+    &.contacts {
+      width: 70%;
+      height: 50px;
+      margin-top: 20px;
+      a {
+        font-size: 1rem;
+      }
+    }
+    a {
+      color: #fff !important;
+      padding: 10px 30px;
+      display: table;
+      font-weight: 500;
+      letter-spacing: 2px;
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      font-family: 'TT Norms', sans-serif;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    &:hover {
+      background: #565e56;
+    }
+  }
+}

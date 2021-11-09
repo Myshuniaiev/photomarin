@@ -1,0 +1,16 @@
+@import 'vars';
+@import 'colors';
+@import 'fonts';
+@import 'mixins';
+@import 'common';
+@import 'normalize';
+
+// components
+@import 'components/feat';
+@import 'components/header';
+@import 'components/footer';
+@import 'components/buttons';
+@import 'components/navigation';
+
+// pages
+@import 'pages/index';
