@@ -16,6 +16,9 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
+      @include mq-phone {
+        width: 90%;
+      }
     }
     h3 {
       margin: 0 0 40px;
@@ -58,7 +61,7 @@
     font-family: 'TT Norms', sans-serif;
     font-weight: bold;
     text-transform: uppercase;
-    display: inline-block;  
+    display: inline-block;
     margin-bottom: 30px;
   }
   .creation {
