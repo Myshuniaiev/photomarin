@@ -11,6 +11,7 @@ interface IProps {
 }
 
 const Header = ({ text, useAnd, background }: IProps) => {
+  // Changed images
   return (
     <div
       className={`header-wrapper ${
