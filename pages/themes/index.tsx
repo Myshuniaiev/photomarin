@@ -18,7 +18,7 @@ const Themes: NextPage = () => {
           subtitle: 'This is my themes',
           description: 'Get in touch and contact me',
         }}
-        background='/assets/images/Themes/Family/family-wrapper.jpg'
+        background='/assets/images/family-wrapper.jpg'
       />
       <div className='main'>
         <div className='main-content'>
@@ -33,7 +33,7 @@ const Themes: NextPage = () => {
               <h3>Popular</h3>
               <div className='feat'>
                 <Feat
-                  img='/assets/images/Themes/Family/family-cover.jpg'
+                  img='/assets/images/family-cover.jpg'
                   title='Family'
                   url='/themes/family'
                 />
@@ -43,7 +43,7 @@ const Themes: NextPage = () => {
               <h3>Recent work</h3>
               <div className='feat'>
                 <Feat
-                  img='/assets/images/Themes/Family/family-cover.jpg'
+                  img='/assets/images/rita-family-cover.jpg'
                   title={`Rita's family`}
                   url='/works/rita-family'
                 />

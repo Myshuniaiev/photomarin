@@ -18,7 +18,7 @@ const Home: NextPage = () => {
           description:
             'Creative creator / Family  photographer/ Couples photographer',
         }}
-        background='/assets/images/Themes/Family/family-wrapper.jpg'
+        background='/assets/images/family-wrapper.jpg'
       />
       <div className='main'>
         <div className='main-content'>

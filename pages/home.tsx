@@ -33,7 +33,7 @@ const Home: NextPage = () => {
             <div className='wrap'>
               <div className='feat'>
                 <Feat
-                  img='/assets/images/Themes/Family/family-cover.jpg'
+                  img='/assets/images/family-cover.jpg'
                   title='Family'
                   url='/themes/family'
                 />
@@ -80,7 +80,7 @@ const Home: NextPage = () => {
             <h2>Recent works</h2>
             <div className='feat'>
               <Feat
-                img='/assets/images/Themes/Family/family-cover.jpg'
+                img='/assets/images/rita-family-cover.jpg'
                 title={`Rita's Family`}
                 url='/works/rita-family'
               />

@@ -18,7 +18,7 @@ const Family: NextPage = () => {
           subtitle: 'This is my theme about families',
           description: 'Get in touch and contact me',
         }}
-        background='/assets/images/Themes/Family/family-wrapper.jpg'
+        background='/assets/images/family-wrapper.jpg'
       />
       <div className='main'>
         <div className='main-content'>
@@ -31,7 +31,7 @@ const Family: NextPage = () => {
             </p>
             <div className='feat'>
               <Feat
-                img='/assets/images/Themes/Family/family-cover.jpg'
+                img='/assets/images/rita-family-cover.jpg'
                 title={`Rita's family`}
                 url='/works/rita-family'
               />

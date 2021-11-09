@@ -18,7 +18,7 @@ const Home: NextPage = () => {
           subtitle: 'This is my works',
           description: 'Get in touch and contact me',
         }}
-        background='/assets/images/Themes/Family/family-wrapper.jpg'
+        background='/assets/images/family-wrapper.jpg'
       />
       <div className='main'>
         <div className='main-content'>
@@ -26,9 +26,9 @@ const Home: NextPage = () => {
             <h2>Works</h2>
             <div className='feat'>
               <Feat
-                img='/assets/images/Themes/Family/family-cover.jpg'
-                title='Family'
-                url='/themes/family'
+                img='/assets/images/rita-family-cover.jpg'
+                title={`Rita's Family`}
+                url='/themes/rita-family'
               />
             </div>
           </div>

@@ -21,24 +21,23 @@ const Rita: NextPage = () => {
           subtitle: `This is Rita's Family`,
           description: 'Get in touch and contact me',
         }}
-        background='/assets/images/Themes/Family/family-wrapper.jpg'
+        background='/assets/images/rita-family-wrapper.jpg'
       />
       <div className='main'>
         <div className='main-content'>
           <div className='main-wrapper'>
             <h2>Rita's Family</h2>
             <div className='main-wrapper-pictures'>
-              <img src='/assets/images/Works/Rita/photo-1.jpg' alt='' />
-              <img src='/assets/images/Works/Rita/photo-2.jpg' alt='' />
-              <img src='/assets/images/Works/Rita/photo-3.jpg' alt='' />
-              <img src='/assets/images/Works/Rita/photo-4.jpg' alt='' />
-              <img src='/assets/images/Works/Rita/photo-5.jpg' alt='' />
-              <img src='/assets/images/Works/Rita/photo-6.jpg' alt='' />
-              <img src='/assets/images/Works/Rita/photo-7.jpg' alt='' />
-              <img src='/assets/images/Works/Rita/photo-8.jpg' alt='' />
-              <img src='/assets/images/Works/Rita/photo-9.jpg' alt='' />
-              <img src='/assets/images/Works/Rita/photo-10.jpg' alt='' />
-              <img src='/assets/images/Works/Rita/photo-11.jpg' alt='' />
+              <img src='/assets/images/rita-family-1.jpg' alt='' />
+              <img src='/assets/images/rita-family-2.jpg' alt='' />
+              <img src='/assets/images/rita-family-3.jpg' alt='' />
+              <img src='/assets/images/rita-family-4.jpg' alt='' />
+              <img src='/assets/images/rita-family-5.jpg' alt='' />
+              <img src='/assets/images/rita-family-6.jpg' alt='' />
+              <img src='/assets/images/rita-family-7.jpg' alt='' />
+              <img src='/assets/images/rita-family-8.jpg' alt='' />
+              <img src='/assets/images/rita-family-9.jpg' alt='' />
+              <img src='/assets/images/rita-family-10.jpg' alt='' />
             </div>
           </div>
         </div>
