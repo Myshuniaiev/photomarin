@@ -30,10 +30,10 @@ const Header = ({ text, useAnd, background }: IProps) => {
       </style>
       {text ? (
         <div className='text'>
-          {text.title ? <h2>{text.title}</h2> : ''}
+          {text.title ? <h2 className='title'>{text.title}</h2> : ''}
           {useAnd ? <p className='and'>&</p> : ''}
           <p></p>
-          {text.subtitle ? <h1>{text.subtitle}</h1> : ''}
+          {text.subtitle ? <h1 className='subtitle'>{text.subtitle}</h1> : ''}
           {text.description ? <h4>{text.description}</h4> : ''}
         </div>
       ) : (
