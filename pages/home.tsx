@@ -24,7 +24,7 @@ const Home: NextPage = () => {
           description: 'Portraits / Family / Lifestyle',
         }}
         useAnd
-        background='/assets/images/home-wrapper.jpg'
+        background='/assets/images/home-preview.jpg'
       />
       <div className='main'>
         <div className='main-content'>
@@ -33,7 +33,17 @@ const Home: NextPage = () => {
             <div className='wrap'>
               <div className='feat'>
                 <Feat
-                  img='/assets/images/family-cover.jpg'
+                  img='/assets/images/Art/cover.jpg'
+                  title='Art'
+                  url='/themes/art'
+                />
+                <Feat
+                  img='/assets/images/Business/cover.jpg'
+                  title='Business'
+                  url='/themes/business'
+                />
+                <Feat
+                  img='/assets/images/Family/cover.jpg'
                   title='Family'
                   url='/themes/family'
                 />
@@ -75,20 +85,6 @@ const Home: NextPage = () => {
               </p>
             </div>
           </div>
-
-          <div className='main-wrapper'>
-            <h2>Recent works</h2>
-            <div className='feat'>
-              <Feat
-                img='/assets/images/rita-family-cover.jpg'
-                title={`Rita's Family`}
-                url='/works/rita-family'
-              />
-            </div>
-          </div>
-          <button className='button-default'>
-            <Link href='/works'>More works</Link>
-          </button>
         </div>
       </div>
     </div>

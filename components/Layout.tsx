@@ -100,9 +100,6 @@ const Layout = ({ children }: IProps) => {
               <Link href='/themes'>
                 <a className='nav-link active'>Themes</a>
               </Link>
-              <Link href='/works'>
-                <a className='nav-link active'>Works</a>
-              </Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

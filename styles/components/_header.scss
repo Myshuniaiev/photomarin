@@ -21,7 +21,6 @@
   @include mq-tablet-sm {
     height: 95vh;
     .text {
-      margin-top: 15%;
       .title {
         font-size: 2rem !important;
         letter-spacing: 5px !important;
@@ -35,7 +34,6 @@
   @include mq-phone {
     height: 95vh;
     .text {
-      margin-top: 60%;
       h1 {
         font-size: 30px !important;
       }
